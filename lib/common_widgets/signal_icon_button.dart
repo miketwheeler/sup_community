@@ -11,6 +11,7 @@ class SignalIconButton extends StatelessWidget {
             child: IconButton(
               icon: const Icon(Icons.record_voice_over),
               color: Colors.white,
+              iconSize: 32,
               onPressed: () {},
             ),
             decoration: const ShapeDecoration(

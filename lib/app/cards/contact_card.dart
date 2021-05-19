@@ -11,11 +11,11 @@ class ContactCard extends StatelessWidget {
             margin: EdgeInsets.all(4.0),
             child: Align(
               alignment: Alignment.topLeft,
-              child: Container(
-                color: Colors.lightBlue,
-                height: 60.0,
-                width: 60.0,
-              ),
+              child: Icon(
+                Icons.account_box,
+                size: 64,
+                color: Colors.grey,
+              )
             ),
           ),
         ],

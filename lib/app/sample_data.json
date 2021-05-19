@@ -1,0 +1,213 @@
+[
+	{
+		"uid": "1",
+		"first_name": "Mike",
+		"last_name": "Scott",
+		"age_range": "30-40",
+		"email": "mikescotty@gmail.com",
+		"seeking": "Friends",
+		"description": "I am looking for programming buddies, I am into python and C#. I have a project in mind and need a mind to brainstorm with.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": "https://reddit.com"
+		},
+		"interests": "books, gardening, hiking",
+		"intro": "friendly, beer, SW & HW",
+		"business":"yes",
+		"hobbies": "drones, guitar",
+		"pseudoname": "Harvey",
+		"contacts": ["John", "Susan", "Blake", "Rena", "Chris", "Steve", "Emily"]
+	},
+	{
+		"uid": "2",
+		"first_name": "Xane",
+		"last_name": "Wei",
+		"age_range": "20-30",
+		"email": "xanewei@gmail.com",
+		"seeking": "Friends",
+		"description": "I am looking for developers, I am into python and django. I am looking for a project to get involved with.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "",
+			"reddit": ""
+		},
+		"interests": "science, language, basketball",
+		"intro": "determined, student, gamer",
+		"business":"yes",
+		"hobbies": "unity, leetcode",
+		"pseudoname": "Spiderman",
+		"contacts": ["Ardy", "Christina", "Blake", "Molly", "Steven", "Esther"]
+	},
+	{
+		"uid": "3",
+		"first_name": "Blake",
+		"last_name": "Zimmerman",
+		"age_range": "30-40",
+		"email": "deezimmerman@gmail.com",
+		"seeking": "Business",
+		"description": "I am looking at creating a startup or finding one to join. I have a huge network, funding (if needed) and determination to boot.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": "https://reddit.com"
+		},
+		"interests": "conquering the world, football",
+		"intro": "outgoing, mornings, family",
+		"business":"yes",
+		"hobbies": "work",
+		"pseudoname": "Future Bossman",
+		"contacts": ["Rena", "Chris", "Susan", "Blake", "Steve", "John", "Emily", "Ardy", "Melinda", "Zeus", "Emilio"]
+	},
+	{
+		"uid": "4",
+		"first_name": "Lars",
+		"last_name": "Hammerstein",
+		"age_range": "30-40",
+		"email": "hammerstein_lars@gmail.com",
+		"seeking": "Friends",
+		"description": "Looking for a date, someone want to go to a movie?",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": ""
+		},
+		"interests": "frisbee, running, drums",
+		"intro": "friendly, mom-worthy",
+		"business":"no",
+		"hobbies": "history, climbing",
+		"pseudoname": "Larry",
+		"contacts": ["Susan", "Rena", "Emily", "James", "Damien", "Danielle"]
+	},
+	{
+		"uid": "5",
+		"first_name": "Sarah",
+		"last_name": "Hemmingway",
+		"age_range": "20-30",
+		"email": "hemmingstheway@gmail.com",
+		"seeking": "Date",
+		"description": "I need a date tonight, don't care who, just as long as you're nice!",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": ""
+		},
+		"interests": "books, gym, sports",
+		"intro": "friendly, student, caring",
+		"business":"no",
+		"hobbies": "college",
+		"pseudoname": "Tiff",
+		"contacts": ["John", "Susan", "Blake", "Cramer", "Godin", "Benny", "Arthur", "Rena", "Chris", "Steve", "Emily"]
+	},
+	{
+		"uid": "6",
+		"first_name": "Gibson",
+		"last_name": "Marley",
+		"age_range": "20-30",
+		"email": "gibbymarley@gmail.com",
+		"seeking": "Friends",
+		"description": "I am looking for programming buddies, I am into python and C#. I have a project in mind and need a mind to brainstorm with.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": "https://reddit.com"
+		},
+		"interests": "books, gardening, hiking",
+		"intro": "friendly, beer, SW & HW",
+		"business":"yes",
+		"hobbies": "drones, guitar",
+		"pseudoname": "Bougie",
+		"contacts": ["John", "Susan", "Blake", "Rena", "Chris", "Steve", "Emily"]
+	},
+	{
+		"uid": "7",
+		"first_name": "Charles",
+		"last_name": "Darwin",
+		"age_range": "50-60",
+		"email": "survivalofthefittest@gmail.com",
+		"seeking": "Friends",
+		"description": "I'm into nature, so what. Birds and a cool island I went to are my favorite places.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "",
+			"reddit": ""
+		},
+		"interests": "science, language, basketball",
+		"intro": "determined, gamer",
+		"business":"yes",
+		"hobbies": "science diet",
+		"pseudoname": "C.D.",
+		"contacts": ["Ardy", "Christina", "Blake", "Molly", "Steven", "Esther"]
+	},
+	{
+		"uid": "8",
+		"first_name": "Mallory",
+		"last_name": "Heather",
+		"age_range": "30-40",
+		"email": "gotthatmolly@gmail.com",
+		"seeking": "Business",
+		"description": "Not that kind of startup, im friends with mary-jane.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": ""
+		},
+		"interests": "football",
+		"intro": "outgoing, family, nug",
+		"business":"no",
+		"hobbies": "student",
+		"pseudoname": "BusyBee",
+		"contacts": ["Rena", "Chris", "Susan", "Blake", "Steve", "John", "Emily", "Ardy", "Melinda", "Zeus", "Emilio"]
+	},
+	{
+		"uid": "9",
+		"first_name": "Millie",
+		"last_name": "Von Hammarsmark",
+		"age_range": "50-60",
+		"email": "viciouskenitz@gmail.com",
+		"seeking": "Friends",
+		"description": "who want's to go fishing?",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": ""
+		},
+		"interests": "frisbee, running, rubber bands",
+		"intro": "friendly, cool kat",
+		"business":"no",
+		"hobbies": "climbing, bugging people",
+		"pseudoname": "Kittlez",
+		"contacts": ["Susan", "Rena", "Emily", "James", "Damien", "Danielle"]
+	},
+	{
+		"uid": "10",
+		"first_name": "Rena",
+		"last_name": "Bevourdere",
+		"age_range": "20-30",
+		"email": "rena_beverdeer1@gmail.com",
+		"seeking": "Friends",
+		"description": "I need some help on a project for school, and a personal project, your pick.",
+		"social": {
+			"facebook": "https://facebook.com",
+			"linkedin": "https://linkedin.com",
+			"instagram": "https://instagram.com",
+			"reddit": ""
+		},
+		"interests": "books, gym, sports",
+		"intro": "friendly, student, caring",
+		"business":"no",
+		"hobbies": "college",
+		"pseudoname": "Canery",
+		"contacts": ["John", "Susan", "Blake", "Cramer", "Godin", "Benny", "Arthur", "Rena", "Chris", "Steve", "Emily"]
+	}
+	
+]

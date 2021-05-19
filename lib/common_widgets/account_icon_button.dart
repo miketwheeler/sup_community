@@ -11,6 +11,7 @@ class AccountIconButton extends StatelessWidget {
             child: IconButton(
               icon: const Icon(Icons.account_circle),
               color: Colors.white,
+              iconSize: 34.0,
               onPressed: () {},
             ),
             decoration: const ShapeDecoration(

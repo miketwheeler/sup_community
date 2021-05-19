@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sup_community/app/cards/broadcast_card.dart';
+import 'package:sup_community/app/cards/nearby_card.dart';
 import 'package:sup_community/common_widgets/show_alert_dialog.dart';
 import 'package:provider/provider.dart';
 import 'package:sup_community/services/auth.dart';
@@ -8,6 +10,7 @@ import 'package:sup_community/common_widgets/account_icon_button.dart';
 import 'package:sup_community/common_widgets/signal_icon_button.dart';
 // import 'package:sup_community/app/cards/contact_card.dart';
 import 'package:sup_community/common_widgets/scrollable_contact_section.dart';
+import 'package:sup_community/app/cards/broadcast_card.dart';
 
 class HomePage extends StatelessWidget {
   Future<void> _signOut(BuildContext context) async {
@@ -36,9 +39,11 @@ class HomePage extends StatelessWidget {
     final personalCard = PersonalCard();
     final horizontalHeadingBlue = HorizontalHeading(
       label: 'Nearby',
-      height: 32,
+      height: 38,
       color: Colors.blue,
     );
+    final expansionNearbyCard = ExpansionNearbyCardWidget();
+    final expansionCard = ExpansionCardWidget();
     final contactList = MyScrollableSection();
     final accountIcon = AccountIconButton();
     final signalIcon = SignalIconButton();
@@ -48,22 +53,24 @@ class HomePage extends StatelessWidget {
         title: Text('Sup'),
         actions: <Widget>[
           signalIcon,
-          // accountIcon, <== con set, needs onPressed action
+          // accountIcon, //<== con set, needs onPressed action
           TextButton(
-            child: Text('My Account',
+            child: Text('logout',
                 style: TextStyle(
                   fontSize: 16.0,
                   color: Colors.white,
                 )),
             onPressed: () => _confirmSignOut(context), // sign out for now
-          )
+          ),
         ],
       ),
       // Personal Card (and dropdown) / bar / nearby connections
       body: Column(
         children: <Widget>[
-          personalCard,
+          expansionCard,
+          // personalCard,
           horizontalHeadingBlue,
+          expansionNearbyCard,
           Expanded(
             child: contactList,
           ),
