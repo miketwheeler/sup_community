@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:expansion_tile_card/expansion_tile_card.dart';
+import 'package:sup_community/common_widgets/selection_switch.dart';
+import 'package:sup_community/common_widgets/stateful_selection_switch.dart';
 
 class ExpansionCardWidget extends StatefulWidget {
   @override
@@ -39,13 +41,18 @@ class _ExpansionCardWidgetState extends State<ExpansionCardWidget> {
                 horizontal: 18.0,
                 vertical: 8.0,
               ),
-              child: Text(
-                "FlutterDevs specializes in creating cost-effective and efficient applications with our perfectly crafted,"
-                " creative and leading-edge flutter app development solutions for customers all around the globe.",
-                style: Theme.of(context)
-                    .textTheme
-                    .bodyText2
-                    ?.copyWith(fontSize: 16),
+              child: Column(
+                children: <Widget>[
+                  StatefulSelectionSwitch(label: 'Name'),
+                  StatefulSelectionSwitch(label: 'Seeking'),
+                  StatefulSelectionSwitch(label: 'Picture'),
+                  StatefulSelectionSwitch(label: 'Introduction'),
+                  StatefulSelectionSwitch(label: 'Description (on expand)'),
+                  StatefulSelectionSwitch(label: 'Interests'),
+                  StatefulSelectionSwitch(label: 'Business'),
+                  StatefulSelectionSwitch(label: 'Hobbies'),
+                  StatefulSelectionSwitch(label: 'Pseudoname'),
+                ],
               ),
             ),
           ),

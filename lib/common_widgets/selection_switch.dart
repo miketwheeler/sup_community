@@ -8,11 +8,13 @@ class SwitchWithText extends StatelessWidget {
   const SwitchWithText({
     Key? key,
     required this.label,
+    required this.value,
+    required this.onChanged,
   }) : super(key: key);
 
   final String label;
-  final bool value = false;
-  final Function onChanged = _onChanged;
+  final bool value;
+  final Function onChanged;
   final EdgeInsets padding = const EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 0.0);
 
 
@@ -24,7 +26,7 @@ class SwitchWithText extends StatelessWidget {
       },
       child: Container(
         // padding: padding,
-        height: 22.0,
+        height: 26.0,
         margin: EdgeInsets.only(left: 4.0),
         child: Row(
           // crossAxisAlignment: ,
@@ -43,8 +45,4 @@ class SwitchWithText extends StatelessWidget {
       ),
     );
   }
-}
-
-_onChanged() {
-  return {};
 }

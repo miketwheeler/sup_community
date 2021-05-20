@@ -13,7 +13,7 @@ class _ExpansionNearbyCardWidgetState extends State<ExpansionNearbyCardWidget> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(
-        horizontal: 2.0, 
+        horizontal: 2.0,
         vertical: 2.0,
       ),
       child: ExpansionTileCard(
@@ -24,7 +24,7 @@ class _ExpansionNearbyCardWidgetState extends State<ExpansionNearbyCardWidget> {
           size: 60,
         ),
         title: Text("Jerry A."),
-        subtitle: Text("I'm looking for some new Friends"),
+        subtitle: Text("Looking For: Friends"),
         children: <Widget>[
           Align(
             alignment: Alignment.centerLeft,
@@ -55,7 +55,7 @@ class _ExpansionNearbyCardWidgetState extends State<ExpansionNearbyCardWidget> {
                 child: Row(
                   children: <Widget>[
                     Icon(
-                      Icons.facebook, 
+                      Icons.facebook,
                       color: Colors.blue,
                     ),
                     SizedBox(width: 220.0),
