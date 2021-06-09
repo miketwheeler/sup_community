@@ -3,7 +3,10 @@ import 'package:sup_community/common_widgets/selection_switch.dart';
 
 class StatefulSelectionSwitch extends StatefulWidget {
   final String label;
-  const StatefulSelectionSwitch({Key? key, required this.label}) : super(key: key);
+  const StatefulSelectionSwitch({
+    Key? key,
+    required this.label,
+  }) : super(key: key);
 
   @override
   State<StatefulSelectionSwitch> createState() =>
@@ -17,7 +20,7 @@ class _StatefulSelectionSwitchState extends State<StatefulSelectionSwitch> {
     return SwitchWithText(
         label: widget.label,
         value: _isSelected,
-        onChanged: (bool newValue) {
+        onChanged: (newValue) {
           setState(() {
             _isSelected = newValue;
           });

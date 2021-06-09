@@ -15,7 +15,7 @@ class _ExpansionCardWidgetState extends State<ExpansionCardWidget> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(
-        horizontal: 2.0, 
+        horizontal: 2.0,
         vertical: 2.0,
       ),
       child: ExpansionTileCard(
@@ -68,7 +68,9 @@ class _ExpansionCardWidgetState extends State<ExpansionCardWidget> {
                 child: Row(
                   children: <Widget>[
                     Text('Done'),
-                    SizedBox(width: 4,),
+                    SizedBox(
+                      width: 4,
+                    ),
                     Icon(Icons.task_alt),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 2.0),

@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+//This is the first type of card I tried to make it's non-functional
+
 class ContactCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
